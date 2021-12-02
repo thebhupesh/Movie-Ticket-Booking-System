@@ -1,0 +1,69 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+.main-head{
+    height: 150px;
+    background: #FFF;
+}
+.sidenav {
+    height: 100%;
+    background-color: #000;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.main {
+    padding: 0px 10px;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: auto;
+    }
+    .register-form{
+        margin-top: auto;
+    }
+}
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%; 
+    }
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+    .login-form{
+        margin: auto;
+    }
+    .register-form{
+        margin: auto;
+    }
+}
+.login-main-text{
+    margin: auto;
+    margin-top: 15%;
+    padding: 60px;
+    color: #fff;
+}
+.form-main-text{
+    margin: auto;
+    margin-top: 10%;
+    padding: 60px;
+    color: #000;
+}
+.login-main-text h2{
+    font-weight: 300;
+}
+.home {
+    color: #fff;
+    text-decoration: none;
+}
+.home:hover {
+    color:#fff; 
+    text-decoration: none; 
+    cursor: pointer;
+}
