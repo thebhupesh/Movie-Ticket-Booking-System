@@ -11,8 +11,6 @@ import AddMovie from './pages/add-movie'
 import AddTheatre from './pages/add-theatre'
 import AddShow from './pages/add-shows'
 import Details from './pages/details'
-import Shows from './pages/shows.js'
-import Bookings from './pages/bookings'
 
 import NotFound from './pages/not-found'
 
@@ -31,9 +29,7 @@ const App = () => {
           <Route path="/addtheatre" exact element={<AddTheatre />} />
           <Route path="/addshow" exact element={<AddShow />} />
           <Route path="/details/:id" exact element={<Details />} />
-          <Route path="/shows/:id" exact element={<Shows />} />
-
-          <Route path="/bookings" exact element={<Bookings />} />
+          
           <Route path="/*" exact element={<NotFound />} />
         </Routes>
 			</BrowserRouter>
