@@ -74,7 +74,7 @@ app.get('/api/profile',function(req,res) {
 // File location and name contraints
 const storage = multer.diskStorage({
     destination: function(req, file, cb) {
-        cb(null, 'D:/wamp64/www/Movie-Ticket-Booking-System/frontend/src/uploads');
+        cb(null, 'YOUR UPLOADS FOLDER LOCATION');
     },
     filename: function(req, file, cb) {   
         cb(null, file.originalname);
