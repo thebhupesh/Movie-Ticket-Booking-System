@@ -1,7 +1,7 @@
 const config = {
     default : {
-        SECRET: 'iamironman',
-        DATABASE: 'mongodb://localhost:27017/movie_ticket'
+        SECRET: 'YOUR SECRET CODE',
+        DATABASE: 'YOUR DATABASE URI'
     }
 }
 
